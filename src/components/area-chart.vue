@@ -44,6 +44,7 @@ export default {
       xkey: this.xkey,
       ykeys: Converter.toObject(this.ykeys),
       grid: Converter.toBoolean(this.grid),
+      axes: Converter.toBoolean(this.axes),
       gridTextColor: this.gridTextColor,
       gridTextSize: Converter.toInt(this.gridTextSize),
       gridTextFamily: this.gridTextFamily,
